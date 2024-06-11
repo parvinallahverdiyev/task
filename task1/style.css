@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    
+}
+.container{
+   width: 100%;
+}
+nav{
+    width: 100%;
+ }
+#nv{
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 5px;
+    font-size: 28px;
+}
+#nv i{
+    margin: 0 5px;
+    color: #b956f9;
+}
+nav ul{
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+main{
+    display: inline-block;
+    width: 380px;
+    height: 450px;
+    box-shadow:  1px 1px 5px;
+    border: none;
+    border-radius: 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+}
+img{
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 25px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    padding: 0 15px;
+    margin: 15px auto;
+}
+#mn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    margin: auto 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 600;
+}
+button{
+    text-align: center;
+    width: 24%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 270px;
+    margin: auto 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+button:hover{
+    box-shadow: 1px 1px 15px #b956f9;
+}
+footer{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+footer #ft{
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 15px;
+    margin: 10px 5px;
+    font-size: 25px;
+}
+#f{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+}
+#ft i{
+    margin: 0 5px;
+    color: blueviolet
+}
+h1 p{
+    display: inline-block;
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
